@@ -66,9 +66,9 @@ class Config():
     dim_char = 100
 
     # glove files
-    filename_glove = "data/zhwiki_20180420_300d.txt"
+    filename_glove = "data/sgns.renmin.char"
     # trimmed embeddings (created from glove_filename with build_data.py)
-    filename_trimmed = "data/zhwiki_20180420_300d.npz"
+    filename_trimmed = "data/sgns.renmin.char.npz"
     use_pretrained = True
 
     # dataset
